@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://i.imgur.com/jxEVhVR.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: "Orbitron", sans-serif;
+}
+
+input {
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+  color: #FFFFFF; /* cor do texto digitado */
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.781); /* cor de fundo do input */
+  outline: none; /* remove o contorno azul qnd clica */
+  top: 40px; /* distancia do topo */
+  left: 295px; /* distancia da esquerda */
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 70px;
+  margin-left: -50px;
+  display: inline-block; /* deixa os dois na mesma linha */
+}
+
+.button {
+  display: flex;
+  gap: 70px; /* espaço entre os botões */
+  justify-content: center;
+  max-width: 200px; /* limita a largura para nao afastar muito */
+  margin: 0 auto;
+  align-items: center;
+  width: 100%; /* ocupa toda a largura disponivel */
+  position: relative; /* evita bugs com alinhamento */
+  text-align: center;
+}
+
+.square {
+  width: 900px;
+  height: 450px;
+  background-color: rgb(50, 0, 83);
+  box-shadow: 10px 10px 20px rgba(221, 218, 218, 0.5);
+  margin-top: 50px;
+  margin-left: 200px;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 148px;
+  margin-top: -50px;
+}
+
+img {
+  margin-left: 600px;
+  margin-top: -490px;
+  height: 600px;
+}
+.btn:hover {
+  background: rgb(37, 37, 37);
+}
