@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="square">
+      <h1>Bem-vindo ao Jogo do Número Secreto!</h1>
+      <div class="button">
+        <a href="index.html">
+          <button class="btn">Iniciar Jogo</button>
+        </a>
+      </div>
+    </div>
+    <div class="boneca-container">
+      <img src="https://i.imgur.com/3A0y78P.png" alt="Boneca" class="png"/>
+    </div>
+  </body>
+</html>
